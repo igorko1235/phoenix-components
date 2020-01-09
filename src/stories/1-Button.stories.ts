@@ -13,7 +13,7 @@ storiesOf('Button', module)
         <phoenix-button [buttonText]="buttonText"></phoenix-button>
       `,
       props: {
-        buttonText: 'Test button text'
+        buttonText: 'Test button text text'
       }
     };
   })
