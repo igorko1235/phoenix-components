@@ -1,14 +1,20 @@
 {
-  "name": "phoenix-components",
+  "name": "phoenix",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "start-storybook -p 6006",
+    "watch": "lerna run watch",
+    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap",
+    "test": "lerna run test",
+    "lint": "lerna run lint",
+    "e2e": "ng e2e",
+    "build-storybook": "build-storybook"
   },
+  "workspaces": [
+    "projects/*"
+  ],
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.14",
@@ -19,18 +25,29 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "lodash": "^4.17.15",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.803.21",
+    "@angular-devkit/build-ng-packagr": "~0.803.21",
     "@angular/cli": "~8.3.20",
     "@angular/compiler-cli": "~8.2.14",
     "@angular/language-service": "~8.2.14",
-    "@types/node": "~8.9.4",
+    "@babel/core": "^7.7.7",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addon-notes": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/angular": "^5.2.8",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "babel-loader": "^8.0.6",
     "codelyzer": "^5.0.0",
+    "css-loader": "^3.4.1",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.1.0",
@@ -38,8 +55,13 @@
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.0",
+    "lerna": "^3.19.0",
+    "less-loader": "^5.0.0",
+    "ng-packagr": "^5.4.0",
     "protractor": "~5.4.0",
+    "style-loader": "^1.1.2",
     "ts-node": "~7.0.0",
+    "tsickle": "^0.37.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
   }

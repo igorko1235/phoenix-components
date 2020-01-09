@@ -1,0 +1,13 @@
+{
+  "name": "@bazikalo/input",
+  "version": "0.0.1",
+  "scripts": {
+    "watch": "ng build input --watch",
+    "build": "ng build input"
+  },
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "@angular/forms": "^8.2.14"
+  }
+}
