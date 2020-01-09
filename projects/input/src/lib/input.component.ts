@@ -3,7 +3,7 @@ import {Component, Input} from '@angular/core';
 @Component({
   selector: 'phoenix-input',
   template: `
-    <input type="text" [(ngModel)]="currentValue">
+    <input type="text" [(ngModel)]="currentValue" class="phoenix-input">
   `,
   styles: []
 })

@@ -3,7 +3,7 @@ import {Component, Input} from '@angular/core';
 @Component({
   selector: 'phoenix-button',
   template: `
-    <button [disabled]="isDisabled">{{buttonText}}</button>
+    <button [disabled]="isDisabled" class="phoenix-button">{{buttonText}}</button>
   `,
   styles: []
 })
