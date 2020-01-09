@@ -1,6 +1,6 @@
 {
   "name": "@bazikalo/button",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "watch": "ng build button --watch",
     "build": "ng build button"
