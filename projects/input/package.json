@@ -1,6 +1,6 @@
 {
   "name": "@bazikalo/input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "watch": "ng build input --watch",
     "build": "ng build input"
