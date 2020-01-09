@@ -1,6 +1,6 @@
 {
   "name": "@bazikalo/button",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "scripts": {
     "watch": "ng build button --watch",
     "build": "ng build button"
@@ -13,5 +13,5 @@
     "access": "public",
     "directory": "dist"
   },
-  "gitHead": "61890cabfd5be0ab99acffc58e0aba9d194c0d25"
+  "gitHead": "6c34527074b7c9e95806d5b39415124b29bf3d5f"
 }
