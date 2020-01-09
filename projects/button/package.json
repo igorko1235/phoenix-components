@@ -9,5 +9,6 @@
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
   },
-  "gitHead": "7d67711d17793961dfdb0a3d3ecd88a962cc2323"
+  "private": false,
+  "gitHead": "607fbbfed0e9438af16cdb40f5eccbbb9bbb90ad"
 }
