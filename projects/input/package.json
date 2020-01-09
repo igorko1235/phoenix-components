@@ -10,6 +10,8 @@
     "@angular/core": "^8.2.14",
     "@angular/forms": "^8.2.14"
   },
-  "private": false,
-  "gitHead": "95d272a71032d0eed86507bd6c489e14ea865e70"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "742731a5da1a2ce3dcb47d22b39891707209a640"
 }
