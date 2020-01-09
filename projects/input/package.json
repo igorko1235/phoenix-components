@@ -11,7 +11,8 @@
     "@angular/forms": "^8.2.14"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "directory": "dist"
   },
   "gitHead": "742731a5da1a2ce3dcb47d22b39891707209a640"
 }
