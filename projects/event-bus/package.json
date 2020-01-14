@@ -4,6 +4,10 @@
   "scripts": {
     "build": "ng build event-bus"
   },
+  "publishConfig": {
+    "access": "public",
+    "directory": "dist"
+  },
   "main": "bundles/ng-example-library.umd.js",
   "module": "fesm5/ng-example-library.js",
   "es2015": "fesm2015/ng-example-library.js",
@@ -17,5 +21,6 @@
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
-  }
+  },
+  "gitHead": "b1369bf5c5b217f4f0f11ca499a281cdbd5c087b"
 }
