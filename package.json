@@ -7,10 +7,12 @@
     "watch": "lerna run watch",
     "build": "lerna run build",
     "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish --contents dist",
     "test": "lerna run test",
     "lint": "lerna run lint",
     "e2e": "ng e2e",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "publish-libs": "npm run bootstrap && npm run build && npm run publish"
   },
   "workspaces": [
     "projects/*"

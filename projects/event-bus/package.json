@@ -1,0 +1,21 @@
+{
+  "name": "@bazikalo/event-bus",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "ng build event-bus"
+  },
+  "main": "bundles/ng-example-library.umd.js",
+  "module": "fesm5/ng-example-library.js",
+  "es2015": "fesm2015/ng-example-library.js",
+  "esm5": "esm5/ng-example-library.js",
+  "esm2015": "esm2015/ng-example-library.js",
+  "fesm5": "fesm5/ng-example-library.js",
+  "fesm2015": "fesm2015/ng-example-library.js",
+  "typings": "ng-example-library.d.ts",
+  "metadata": "ng-example-library.metadata.json",
+  "sideEffects": false,
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  }
+}
